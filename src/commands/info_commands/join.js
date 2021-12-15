@@ -108,7 +108,7 @@ module.exports = async function run (guild, config)
    );
    */
 
-   return defaultChannel.send(`Hello, I'm RITA. Thanks for inviting me.`, {"embed": {
+   return defaultChannel.send(`Hello, I'm Jarvis, a RITA (Real-Time Interchangeable Translating Assistant) Bot. Thanks for inviting me.`, {"embed": {
       "color": 9514728,
       "description": "We developed RITA to be the best free Translator Bot on Discord (& soon Guilded).\nSpeaking to other people should not have to cost you an arm and a leg, Our aim is to break that language barrier without you having to pay out for the privilege.",
       "fields": [
