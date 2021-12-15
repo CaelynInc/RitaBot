@@ -13,7 +13,7 @@ const db = require("./core/db");
 // Const setStatus = require("./core/status");
 const react = require("./commands/translation_commands/translate.react");
 const botVersion = require("../package.json").version;
-const botCreator = "Rita Bot Project";
+const botCreator = "Rita Bot Project - Forked by CaelynInc";
 const joinMessage = require("./commands/info_commands/join");
 
 // ----------
@@ -76,7 +76,7 @@ exports.listen = function listen (client)
 
          client.user.setPresence({
             "activity": {
-               "name": "ritabot.gg | !tr help",
+               "name": "Jarvis | !tr help",
                "type": "PLAYING"
             },
             "status": "online"
